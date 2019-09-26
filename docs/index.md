@@ -4,7 +4,7 @@ layout: tabbed-assignment
 
 # Overview
 
-<img src="assets/images/screen-capture.png" align="right" width="50%">
+<img src="assets/images/screen-capture.png" class="overview-image">
 
 Describe what students will be doing and provide, or expand upon, the assignment outcome.
 
