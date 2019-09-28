@@ -6,5 +6,8 @@ Each of the Markdown files in this folder (except README) is the content for one
 
 Parameters for this assignment are set in:
 
-* [_data/assignment](_data/assignment.yml) (assignment scope)
+* [_data/assignment](_data/assignment.yml) (assignment scope):
+  - **outcome**:
+  - **slides**:
+  - **template**:
 * The file frontmatter (file/tab scope)
