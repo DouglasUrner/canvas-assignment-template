@@ -1,5 +1,5 @@
 # Rubric Notes
 
-| Looking for                       | Evidence                                  | Essential Tasks & Supporting Standards |
-| :--                               | :--                                       | :--                                    |
-|                                   |                                           |                                        |
+| Looking for                     | Evidence                                  | Essential Tasks & Supporting Standards | Max |
+| :--                             | :--                                       | :--                                    | --: |
+|                                 |                                           |                                        |     |
