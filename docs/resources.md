@@ -4,18 +4,20 @@ layout: tabbed-assignment
 
 # Resources
 
-{% if site.data.assignment.slides %}
-* [Presentation Slides][slides]
-{% endif %}
 {% if site.data.assignment.lesson %}
 * [Lesson][]
 {% endif %}
+{% if site.data.assignment.slides %}
+* [Presentation Slides][slides]
+{% endif %}
 {% if site.data.assignment.template %}
-* [Submission Template][template]
+* View the [submission template][template] - make a [copy of the template][copy-template]
 {% endif %}
 
-<!-- Don't edit links here, change them in _data/assignment.yml instead, -->
 
-[lesson]: <{{site.data.assignment.lesson}}>
-[slides]: <{{site.data.assignment.slides}}>
-[template]: <{{site.data.assignment.template}}>
+<!-- Don't edit links here, change them in _data/assignment.yml instead. -->
+
+{% if site.data.assignment.lesson   %}[lesson]:        <{{site.data.assignment.lesson}}>        {% endif %}
+{% if site.data.assignment.slides   %}[slides]:        <{{site.data.assignment.slides}}>        {% endif %}
+{% if site.data.assignment.template %}[template]:      <{{site.data.assignment.template}}>      {% endif %}
+{% if site.data.assignment.template %}[copy-template]: <{{site.data.assignment.template}}/copy> {% endif %}
